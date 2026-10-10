@@ -1,6 +1,6 @@
 # Employee Portal Web
 
-Primera versión web funcional del Employee Portal. Incluye login demo por roles, dashboard, payroll, comprobantes, vacaciones, permisos, documentos, perfil, notificaciones y una vista administrativa inicial. También puede publicarse como demostración estática mediante GitHub Pages.
+Primera versión web funcional del Employee Portal. Incluye login demo por roles, dashboard, payroll, comprobantes, vacaciones, permisos, documentos, perfil y notificaciones. También incorpora un Portal HR/Admin independiente en la experiencia de navegación, con centro de control, directorio de empleados, bandeja de aprobaciones, nómina, documentos corporativos y políticas operativas.
 
 ## Ejecutar
 
@@ -10,7 +10,7 @@ npm start
 
 Abre `http://localhost:4173`.
 
-Usa cualquier correo y contraseña. Un correo que incluya `hr` o `manager` activa la vista administrativa demo.
+Usa cualquier correo y contraseña. Un correo que incluya `hr` abre el Portal HR/Admin; uno que incluya `manager` abre el centro de control administrativo.
 
 ## Próxima evolución
 
